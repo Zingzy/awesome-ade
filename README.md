@@ -113,6 +113,7 @@ Browser-based, which means team-shareable and reachable from any device without 
 - [Open SWE](https://github.com/langchain-ai/open-swe): LangChain's cloud-sandboxed asynchronous coding agent, invoked from Slack, Linear or GitHub and returning a PR. ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/open-swe?style=social)
 - [ruflo](https://github.com/ruvnet/ruflo): Agent meta-harness for deploying coordinated multi-agent swarms and long-running autonomous workflows. ![GitHub Repo stars](https://img.shields.io/github/stars/ruvnet/ruflo?style=social)
 - [LoopTroop](https://github.com/looptroop-ai/looptroop): Local orchestrator with a web UI and CLI for unattended coding runs in isolated git worktrees, with multi-model consensus planning, clean-context retries, and human approval gates. ![GitHub Repo stars](https://img.shields.io/github/stars/looptroop-ai/looptroop?style=social)
+- [intentic](https://github.com/intentic/intentic): Self-hosted web workspace that runs agents in parallel inside a sandbox container on your own machine, one git worktree per conversation. Runs keep going with the browser closed, any browser or phone opens the same board, and nothing lands in your tree until you have reviewed the diff. ![GitHub Repo stars](https://img.shields.io/github/stars/intentic/intentic?style=social)
 
 ## Remote & Mobile Control
 
@@ -288,6 +289,7 @@ Orchestrators only — the tools you would actually choose between. "Isolation" 
 | [Orkas](https://github.com/Orkas-AI/Orkas) | 🖥️ Desktop | — | Many | Commander coordinates specialist agents and external coding CLIs |
 | [LoopTroop](https://github.com/looptroop-ai/looptroop) | 🌐 Web + ⌨️ CLI | 🌲 worktree | One active per project | Multi-model planning council, Ralph retries, review gates; npm/Homebrew/Scoop/Docker |
 | [agent-manager](https://github.com/YoanWai/agent-manager) | ⌨️ TUI | 🪟 tmux session + 🌲 worktree (optional) | Many | Installed CLIs run unmodified, diff line comments go back to the agent |
+| [intentic](https://github.com/intentic/intentic) | 🌐 Web + 🖥️ Desktop | 📦 container + 🌲 worktree | Many | Runs on your machine and survives a closed browser; diff review before a change lands |
 
 ---
 
